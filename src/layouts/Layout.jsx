@@ -10,7 +10,7 @@ import Skills from '../pages/jsx/Skills';
 
 export default function Layout() {
    return (
-      <div>
+      <div className='layout'>
          <Header />
          <Dashboard />
          <Aboutme />
