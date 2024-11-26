@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import '../css/card.style.css';
 import gitImage from '/Users/gangjiyeong/vscode/kjyportfolio/src/images/git.png';
 
-export default function Card1() {
+export default function Card5() {
    const cardRef = useRef(null);
 
    useEffect(() => {
@@ -23,22 +23,25 @@ export default function Card1() {
          window.removeEventListener('scroll', handleScroll);
       };
    }, []);
-
    return (
       <div className='card hidden' ref={cardRef}>
          <div className='card_buttons'>
             <a
-               href='https://github.com/CATERPILLAR-TEAM/STAY_CONNECT'
+               href='https://github.com/jiyoung79/React_RockPaperScissor'
                target='_blank'
                rel='noopener noreferrer'
                className='git_link'>
                <img src={gitImage} alt='git' className='git_img' />
             </a>
-            <a href='https://stayconnect.shop/' className='card_button' target='_blank' rel='noopener noreferrer'>
+            <a
+               href='https://jiyoung79.github.io/React_RockPaperScissor/'
+               className='card_button'
+               target='_blank'
+               rel='noopener noreferrer'>
                사이트 바로가기
             </a>
             <a
-               href='https://github.com/CATERPILLAR-TEAM/STAY_CONNECT'
+               href='https://www.notion.so/ReadMe-14a305c4377180c09a33c4b54674dbf0?pvs=4'
                className='card_button'
                target='_blank'
                rel='noopener noreferrer'>
@@ -49,31 +52,20 @@ export default function Card1() {
             <div className='stack_list'>HTML</div>
             <div className='stack_list'>CSS</div>
             <div className='stack_list'>JavaScript</div>
-            <div className='stack_list'>Axios</div>
-            <div className='stack_list'>jQuery</div>
-            <div className='stack_list'>Thymeleaf</div>
-            <div className='stack_list'>Spring Boot</div>
-            <div className='stack_list'>Spring Security</div>
-            <div className='stack_list'>MySQL</div>
-            <div className='stack_list'>Docker</div>
+            <div className='stack_list'>React</div>
          </div>
          <div className='card_t'>
             <h3 className='card_title'>프로젝트명 :</h3>
-            <h3 className='card_subtitle'>Stay Connect</h3>
+            <h3 className='card_subtitle'>가위바위보 앱</h3>
          </div>
          <div className='card_contents'>
-            <p>📌 숙박업소와 실시간 채팅이 가능한 소켓 통신 기능을 추가하여 개발</p>
-            <p className='sub'>(고객 서비스 향상과 예약 전환율 증가, 데이터 수집 및 분석 기대)</p>
-            <p>📌 지도 좌표로 그 근처에 위치한 숙소를 추천해주는 기능을 추가하여 개발</p>
-            <p className='sub'>(소비자가 원하는 좌표의 숙소 추천)</p>
-            <p>📌 소셜 로그인 추가 및 KG이니시스 결제 API 기능 개발</p>
+            <p>📌 React를 사용하여 UI와 상태 관리에 중점을 두고 개발</p>
+
+            <p>📌 각 버튼 클릭 시 선택한 값이 콜백 함수를 통해 전달되며 이후 컴퓨터의 랜덤 선택과 결과 비교가 도출</p>
+
             <div className='todo'>
                <p className='todo_title'>주요 업무 : </p>
-               <p>백엔드 및 프론트엔드 담당</p>
-            </div>
-            <div className='todo'>
-               <p className='todo_title'>담당 역할 :</p>
-               <p>index, MyPage, 전반적인 CSS, 결제API CRUD, MyPage 개인정보수정 CRUD</p>
+               <p>리액트를 사용해 프론트엔드 개발 담당</p>
             </div>
          </div>
       </div>

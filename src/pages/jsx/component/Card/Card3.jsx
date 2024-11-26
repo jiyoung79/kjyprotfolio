@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import '../css/card.style.css';
 import gitImage from '/Users/gangjiyeong/vscode/kjyportfolio/src/images/git.png';
 
-export default function Card1() {
+export default function Card3() {
    const cardRef = useRef(null);
 
    useEffect(() => {
@@ -23,22 +23,25 @@ export default function Card1() {
          window.removeEventListener('scroll', handleScroll);
       };
    }, []);
-
    return (
       <div className='card hidden' ref={cardRef}>
          <div className='card_buttons'>
             <a
-               href='https://github.com/CATERPILLAR-TEAM/STAY_CONNECT'
+               href='https://github.com/jiyoung79/Netflix_clonecoding'
                target='_blank'
                rel='noopener noreferrer'
                className='git_link'>
                <img src={gitImage} alt='git' className='git_img' />
             </a>
-            <a href='https://stayconnect.shop/' className='card_button' target='_blank' rel='noopener noreferrer'>
+            <a
+               href='https://kjynetcloneflix.netlify.app/'
+               className='card_button'
+               target='_blank'
+               rel='noopener noreferrer'>
                사이트 바로가기
             </a>
             <a
-               href='https://github.com/CATERPILLAR-TEAM/STAY_CONNECT'
+               href='https://www.notion.so/Netflix-ReadMe-14a305c4377180b98ec0c898d2cff5a4?pvs=4'
                className='card_button'
                target='_blank'
                rel='noopener noreferrer'>
@@ -49,31 +52,28 @@ export default function Card1() {
             <div className='stack_list'>HTML</div>
             <div className='stack_list'>CSS</div>
             <div className='stack_list'>JavaScript</div>
-            <div className='stack_list'>Axios</div>
-            <div className='stack_list'>jQuery</div>
-            <div className='stack_list'>Thymeleaf</div>
-            <div className='stack_list'>Spring Boot</div>
-            <div className='stack_list'>Spring Security</div>
-            <div className='stack_list'>MySQL</div>
-            <div className='stack_list'>Docker</div>
+            <div className='stack_list'>React</div>
+            <div className='stack_list'>Redux</div>
+            <div className='stack_list'>React Router Dom</div>
+            <div className='stack_list'>React Hook</div>
+            <div className='stack_list'>React Query</div>
          </div>
          <div className='card_t'>
             <h3 className='card_title'>프로젝트명 :</h3>
-            <h3 className='card_subtitle'>Stay Connect</h3>
+            <h3 className='card_subtitle'>Netflix 클론코딩</h3>
          </div>
          <div className='card_contents'>
-            <p>📌 숙박업소와 실시간 채팅이 가능한 소켓 통신 기능을 추가하여 개발</p>
-            <p className='sub'>(고객 서비스 향상과 예약 전환율 증가, 데이터 수집 및 분석 기대)</p>
-            <p>📌 지도 좌표로 그 근처에 위치한 숙소를 추천해주는 기능을 추가하여 개발</p>
-            <p className='sub'>(소비자가 원하는 좌표의 숙소 추천)</p>
-            <p>📌 소셜 로그인 추가 및 KG이니시스 결제 API 기능 개발</p>
-            <div className='todo'>
-               <p className='todo_title'>주요 업무 : </p>
-               <p>백엔드 및 프론트엔드 담당</p>
-            </div>
+            <p>📌 기존 넷플릭스 영문 사이트를 클론코딩</p>
+            <p className='sub'>(hook을 이용하여 코드의 재사용, 컴포넌트를 비즈니스 로직과 UI를 분류(코드의 세분화))</p>
+            <p className='sub'>
+               (state를 사용하여 동적인 데이터를 관리하고, 그 데이터를 기반으로 한 UI의 자동적인 업데이트를 쉽게 처리)
+            </p>
+            <p>📌 키워드로 영화를 검색할 수 있다.</p>
+            <p>📌 TMDB를 이용하여 인기영화, 개봉할 영화 API 호출</p>
+
             <div className='todo'>
                <p className='todo_title'>담당 역할 :</p>
-               <p>index, MyPage, 전반적인 CSS, 결제API CRUD, MyPage 개인정보수정 CRUD</p>
+               <p>리덕스, 리액트, 리액트쿼리, 리액트 라우터 돔, 리액트 훅을 사용한 클론코딩</p>
             </div>
          </div>
       </div>
