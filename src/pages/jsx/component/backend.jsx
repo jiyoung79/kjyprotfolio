@@ -17,7 +17,7 @@ export default function Backend() {
    useEffect(() => {
       const handleScroll = () => {
          const scrollPosition = window.scrollY + window.innerHeight; // 현재 스크롤 위치 + 뷰포트 높이
-         const triggerPosition = 1200;
+         const triggerPosition = 1400;
          if (scrollPosition >= triggerPosition) {
             setIsVisible(true);
          }

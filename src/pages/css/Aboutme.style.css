@@ -1,9 +1,40 @@
 .aboutme {
-   width: 100%;
+   width: 95%;
    padding: 40px;
-   background-color: white;
+   /* background-color: white; */
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/images/galaxy.jpg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
+.aboutme-aurora {
+   width: 97%;
+   padding: 20px;
+   border-radius: 30px;
+   background: linear-gradient(90deg, #087f5b, #4dc4c4, #f187ff, #833ab4);
+   background-size: 200% 200%; /* 오로라 애니메이션 효과를 위해 크기 확대 */
+   animation: aboutme-aurora-animation 7s ease-in-out infinite;
+}
+
+@keyframes aboutme-aurora-animation {
+   0% {
+      background-position: 0% 50%;
+   }
+   50% {
+      background-position: 100% 50%;
+   }
+   100% {
+      background-position: 0% 50%;
+   }
+}
+
+.aboutme-box {
+   width: 94%;
+   background-color: white;
+   padding: 40px;
+   border-radius: 30px;
+}
 .aboutme_title {
    font-size: 2.5rem;
    color: black;
@@ -34,7 +65,7 @@
 
 .contact-title {
    position: absolute;
-   top: 25px;
+   top: 20px;
    left: 50%;
    transform: translateX(-50%);
    font-size: 1.5rem;
@@ -126,7 +157,7 @@
    font-size: 1rem;
    line-height: 20px;
    text-align: center;
-   margin-left: 100px;
+   margin-left: 80px;
    margin-top: -50px;
 }
 
