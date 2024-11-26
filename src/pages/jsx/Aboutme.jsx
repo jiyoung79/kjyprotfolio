@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import '../css/Aboutme.style.css';
-import imacImage from '/Users/gangjiyeong/vscode/kjyportfolio/src/images/imac.png';
-import profile from '/Users/gangjiyeong/vscode/kjyportfolio/src/images/profile.png';
+import imacImage from '../jsx/component/image/imac.png';
+import profile from '../jsx/component/image/profile.png';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCakeCandles, faSchool, faPen } from '@fortawesome/free-solid-svg-icons';
