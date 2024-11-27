@@ -1,11 +1,11 @@
 import React from 'react';
 import '../css/Projects.style.css';
-import Card1 from './component/Card/Card1';
-import Card2 from './component/Card/Card2';
-import Card4 from './component/Card/Card4';
-import Card3 from './component/Card/Card3';
-import Card5 from './component/Card/Card5';
-import Card6 from './component/Card/Card6';
+import Card1 from '../../component/Card/Card1';
+import Card2 from '../../component/Card/Card2';
+import Card3 from '../../component/Card/Card3';
+import Card4 from '../../component/Card/Card4';
+import Card5 from '../../component/Card/Card5';
+import Card6 from '../../component/Card/Card6';
 
 export default function Projects() {
    return (

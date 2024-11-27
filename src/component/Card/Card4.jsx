@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import '../css/card.style.css';
-import gitImage from '/Users/gangjiyeong/vscode/kjyportfolio/src/images/git.png';
+import gitImage from '../../images/git.png';
 
 export default function Card4() {
   const cardRef = useRef(null);
