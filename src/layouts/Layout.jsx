@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/Layout.style.css';
 import Header from './Header';
-import Footer from './Footer';
 import Dashboard from '../pages/jsx/Dashboard';
 import Aboutme from '../pages/jsx/Aboutme';
 
