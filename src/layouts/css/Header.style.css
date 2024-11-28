@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Jacquard+12&family=Nanum+Gothic+Coding&family=Oswald:wght@200..700&family=Pirata+One&family=Sixtyfour+Convergence&family=UnifrakturMaguntia&display=swap');
 .header {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    align-items: center;
    padding: 10px 20px;
    background-color: rgba(0, 0, 0, 0.5);
@@ -18,7 +19,9 @@
 
 .header-item {
    cursor: pointer;
-   padding: 0 10px;
+   padding: 0 200px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 1.2rem;
 }
 
 .header-item:hover {

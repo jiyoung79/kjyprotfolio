@@ -34,7 +34,11 @@ export default function Card2() {
                className='git_link'>
                <img src={gitImage} alt='git' className='git_img' />
             </a>
-            <a href='https://stayconnect.shop/' className='card_button' target='_blank' rel='noopener noreferrer'>
+            <a
+               href='https://zizi-collab.github.io/Cwar_site/'
+               className='card_button'
+               target='_blank'
+               rel='noopener noreferrer'>
                사이트 바로가기
             </a>
             <a

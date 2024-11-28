@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Jacquard+12&family=Nanum+Gothic+Coding&family=Oswald:wght@200..700&family=Pirata+One&family=Sixtyfour+Convergence&family=UnifrakturMaguntia&display=swap');
 .projects {
    width: 100%;
    height: auto;
@@ -14,6 +15,7 @@
 }
 
 .projects_title {
+   font-family: 'Oswald', sans-serif;
    display: flex;
    text-align: center;
    font-size: 2.5rem;

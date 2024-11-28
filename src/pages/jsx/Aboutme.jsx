@@ -80,8 +80,8 @@ export default function Aboutme() {
                            <span className='highlight'>프론트엔드 개발자</span>,
                         </p>
                         <p>
-                           🧐 <span className='highlight'>효율적인 로직</span>을 구축할 수 있는{' '}
-                           <span className='highlight'>백엔드 개발자</span>가 되고 싶습니다.
+                           🧐 더 나아가서<span className='highlight'> 효율적인 로직</span>을 구축할 수 있는{' '}
+                           <span className='highlight'>풀스텍 개발자</span>가 되고 싶습니다.
                         </p>
                      </div>
                   </Col>
