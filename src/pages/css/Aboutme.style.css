@@ -180,6 +180,11 @@
 
 .profile .goal h1 {
    font-size: 1.5rem;
+   margin-bottom: 40px;
+}
+
+.profile .goal p {
+   line-height: 30px;
 }
 
 .profile-image-container {

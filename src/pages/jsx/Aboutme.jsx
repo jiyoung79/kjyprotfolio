@@ -58,30 +58,22 @@ export default function Aboutme() {
                         <span className='emoji emoji-3'>✨</span>
                      </div>
                      <div className='announce'>
-                        <p>
-                           <span className='highlight'>배움에 대한 갈증</span>이 있는 편이라 끊임없는 공부 및 자기개발을
-                           통해
-                        </p>
-                        <p>
-                           노력에 대한 가치를 스스로 높힐 수 있는 <span className='highlight'>개발</span>이라는 직군이
-                           큰 장점으로 다가왔습니다.
-                        </p>
-                        <p>또한 제가 짠 코드 한 줄로 인해 화면 구성이 바뀌고, 기능 구현이 되는</p>
+                        {/* <p>또한 제가 짠 코드 한 줄로 인해 화면 구성이 바뀌고, 기능 구현이 되는</p>
                         <p>
                            즉 <span className='highlight'>결과가 한 눈에 직접적으로 보이는 것</span>이 매력적인
                            부분이라고 생각하여
                         </p>
-                        <p>이 직군을 선택하게 되었습니다.</p>
+                        <p>이 직군을 선택하게 되었습니다.</p> */}
                      </div>
                      <div className='goal'>
                         <h1>💪 목표</h1>
                         <p>
-                           🧐 사용자에 맞춰 <span className='highlight'>실용적인 UI</span>를 구축할 수 있는{' '}
-                           <span className='highlight'>프론트엔드 개발자</span>,
+                           🧐 다양한 팀원들과의 <span className='highlight'>원활한 소통을 통해 고객의 니즈</span>를
+                           반영한 기획과 프로모션을 성공적으로 이끌어내는 MD
                         </p>
                         <p>
-                           🧐 더 나아가서<span className='highlight'> 효율적인 로직</span>을 구축할 수 있는{' '}
-                           <span className='highlight'>풀스텍 개발자</span>가 되고 싶습니다.
+                           🧐 <span className='highlight'>지속적으로 트렌드를 학습</span>하고 시장의 변화를 선도하며
+                           패션 업계에서 꼭 필요한 인재로 자리 매김 하겠습니다.
                         </p>
                      </div>
                   </Col>

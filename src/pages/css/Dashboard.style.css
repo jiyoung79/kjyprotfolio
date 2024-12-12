@@ -18,6 +18,11 @@
    border-right: 3px solid white;
    width: 0;
    animation: typing 4s steps(30, end) forwards, blink 0.8s step-end infinite;
+   justify-content: center;
+   display: flex;
+   /* align-items: center; */
+   /* align-content: center; */
+   text-align: center;
 }
 
 @keyframes typing {
